@@ -69,7 +69,6 @@ def main():
         for i in pg.event.get():
             if i.type == pg.QUIT:
                 pg.quit()
-                pg.quit()
                 return
             elif i.type == pg.KEYDOWN:
                 if i.key == st.K_LEFT:
